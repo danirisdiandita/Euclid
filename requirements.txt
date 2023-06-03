@@ -1,2 +1,5 @@
 pandas
-elasticsearch
+fastapi
+uvicorn[standard]
+python-dotenv
+elasticsearch[async]
