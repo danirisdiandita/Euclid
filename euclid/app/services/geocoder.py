@@ -10,4 +10,11 @@ class Geocoder:
             http_auth=(config.es_username, config.es_password) if config.es_username and config.es_password else None, 
         )
 
+
+    def create_index_table(self, index_name, table_name, value):
+        """
+        example: ind
+        """ 
+
+
         
